@@ -1,0 +1,21 @@
+{
+    "tienda": {
+        "nombre": "GameStop",
+        "ubicacion": "Madrid",
+        "productos": [
+            {
+                "nombre": "ELDEN RING",
+                "precio": 59.99,
+                "disponible": true
+                
+            },
+            {
+                "nombre": "The Legend of Zelda: Breath of the Wild",
+                "precio": 49.99,
+                "disponible": true
+                
+            }
+        ]
+    }
+}
+         
