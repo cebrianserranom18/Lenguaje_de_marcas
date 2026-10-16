@@ -1,8 +1,10 @@
 {
     "datos": [
-    "Teclado",
-    30,
-    true,
-    null
+    {
+        "nombre": "Teclado",
+        "precio": 30,
+        "disponible": true,
+        "descuento": null
+    }
     ]
 }
