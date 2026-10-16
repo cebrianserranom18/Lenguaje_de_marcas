@@ -1,0 +1,16 @@
+{
+    "persona" : [
+        {
+            "nombre": "Juan",
+            "edad": 30,
+            "direccion": "Calle Mayor 123"
+        }
+    ],
+    "propiedad": [
+        {
+            "calle": "Calle Mayor 123",
+            "ciudad": "Madrid",
+            "codigo_postal": "28013"
+        }
+    ]
+}
