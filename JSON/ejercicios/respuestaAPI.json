@@ -1,0 +1,17 @@
+{
+  "status": 404,
+  "ok": false,
+  "data": null,
+  "errores": [
+    {
+      "codigo": "ERR_NOT_FOUND",
+      "mensaje": "El recurso solicitado no existe.",
+      "campo": "id"
+    },
+    {
+      "codigo": "ERR_INVALID_REGION",
+      "mensaje": "La región especificada no es válida.",
+      "campo": "disponibleEn"
+    }
+  ]
+}
