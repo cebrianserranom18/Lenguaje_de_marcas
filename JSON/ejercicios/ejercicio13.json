@@ -1,0 +1,30 @@
+{
+  "tienda": {
+    "productos": [
+      {
+        "nombre": "Teclado",
+        "precio": 45.99,
+        "categoria": "Periféricos",
+        "disponible": true
+      },
+      {
+        "nombre": "Ratón",
+        "precio": 25.50,
+        "categoria": "Periféricos",
+        "disponible": true
+      },
+      {
+        "nombre": "Monitor",
+        "precio": 150.00,
+        "categoria": "Pantallas",
+        "disponible": false
+      },
+      {
+        "nombre": "Cable HDMI",
+        "precio": 10.00,
+        "categoria": "Accesorios",
+        "disponible": true
+      }
+    ]
+  }
+}

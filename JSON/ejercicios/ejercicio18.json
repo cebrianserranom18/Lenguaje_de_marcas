@@ -1,0 +1,132 @@
+{
+  "redSocial": {
+    "usuarios": [
+      {
+        "id": 1,
+        "usuario": "dev_ana",
+        "perfil": {
+          "bio": "Frontend developer",
+          "ubicacion": "Madrid",
+          "verificado": true
+        },
+        "siguiendo": [2, 3]
+      },
+      {
+        "id": 2,
+        "usuario": "code_ninja",
+        "perfil": {
+          "bio": "Apasionado del código",
+          "ubicacion": "Barcelona",
+          "verificado": false
+        },
+        "siguiendo": [1]
+      },
+      {
+        "id": 3,
+        "usuario": "data_guru",
+        "perfil": {
+          "bio": "Data Scientist",
+          "ubicacion": "Valencia",
+          "verificado": true
+        },
+        "siguiendo": [1]
+      }
+    ],
+    "publicaciones": [
+      {
+        "id": 101,
+        "autorId": 1,
+        "texto": "¡Hoy he aprendido React!",
+        "fecha": "2026-10-09T14:30:00",
+        "reacciones": {
+          "meGusta": 15,
+          "risa": 0,
+          "sorpresa": 2
+        },
+        "hashtags": [
+          "React",
+          "JavaScript"
+        ]
+      },
+      {
+        "id": 102,
+        "autorId": 2,
+        "texto": "Buscando un nuevo proyecto open source.",
+        "fecha": "2026-10-10T09:15:00",
+        "reacciones": {
+          "meGusta": 5,
+          "risa": 0,
+          "sorpresa": 0
+        },
+        "hashtags": []
+      },
+      {
+        "id": 103,
+        "autorId": 3,
+        "texto": "El análisis de datos cambiará el mundo.",
+        "fecha": "2026-10-11T18:45:00",
+        "reacciones": {
+          "meGusta": 42,
+          "risa": 1,
+          "sorpresa": 10
+        },
+        "hashtags": [
+          "DataScience",
+          "AI"
+        ]
+      },
+      {
+        "id": 104,
+        "autorId": 1,
+        "texto": "Subiendo mi primer repo a GitHub.",
+        "fecha": "2026-10-12T11:20:00",
+        "reacciones": {
+          "meGusta": 30,
+          "risa": 0,
+          "sorpresa": 5
+        },
+        "hashtags": [
+          "GitHub",
+          "Coding"
+        ]
+      }
+    ],
+    "comentarios": [
+      {
+        "id": 1001,
+        "publicacionId": 101,
+        "autorId": 2,
+        "texto": "¡Enhorabuena! React es genial.",
+        "editado": false
+      },
+      {
+        "id": 1002,
+        "publicacionId": 102,
+        "autorId": 1,
+        "texto": "Yo conozco uno interesante.",
+        "editado": true
+      },
+      {
+        "id": 1003,
+        "publicacionId": 103,
+        "autorId": 1,
+        "texto": "Totalmente de acuerdo.",
+        "editado": false
+      },
+      {
+        "id": 1004,
+        "publicacionId": 103,
+        "autorId": 2,
+        "texto": "Aún hay mucho que explorar.",
+        "editado": false
+      },
+      {
+        "id": 1005,
+        "publicacionId": 104,
+        "autorId": 3,
+        "texto": "Pásame el enlace para darle estrella.",
+        "editado": false
+      }
+    ]
+  }
+}

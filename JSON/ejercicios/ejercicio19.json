@@ -1,0 +1,159 @@
+{
+  "clinica": {
+    "nombre": "Salud Integral",
+    "direccion": {
+      "calle": "Avenida de la Salud 123",
+      "ciudad": "Sevilla",
+      "codigoPostal": "41011"
+    },
+    "configuracion": {
+      "horarioApertura": "08:00",
+      "horarioCierre": "20:00",
+      "duracionCitaMinutos": 30
+    },
+    "medicos": [
+      {
+        "id": 1,
+        "nombre": "Dr. Martínez",
+        "especialidad": "Medicina General",
+        "colegiado": "414112345",
+        "consultas": [
+          "Lunes",
+          "Miércoles",
+          "Viernes"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Dra. Gómez",
+        "especialidad": "Dermatología",
+        "colegiado": "414154321",
+        "consultas": [
+          "Martes",
+          "Jueves"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Dr. Ruiz",
+        "especialidad": "Pediatría",
+        "colegiado": "414198765",
+        "consultas": [
+          "Lunes",
+          "Martes",
+          "Miércoles",
+          "Jueves",
+          "Viernes"
+        ]
+      }
+    ],
+    "pacientes": [
+      {
+        "id": 101,
+        "nombre": "Juan Pérez",
+        "fechaNacimiento": "1985-04-12",
+        "seguro": {
+          "compania": "Sanitas",
+          "numeroPoliza": "SAN12345"
+        },
+        "alergias": [
+          "Polen"
+        ],
+        "historial": [
+          {
+            "fecha": "2026-09-15",
+            "diagnostico": "Resfriado",
+            "tratamiento": {
+              "medicamento": "Ibuprofeno",
+              "dosis": "400mg",
+              "duracionDias": 5
+            }
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "nombre": "Lucía Fernández",
+        "fechaNacimiento": "1992-11-23",
+        "seguro": null,
+        "alergias": [],
+        "historial": [
+          {
+            "fecha": "2026-10-01",
+            "diagnostico": "Dermatitis",
+            "tratamiento": {
+              "medicamento": "Crema de hidrocortisona",
+              "dosis": "1 aplicación/día",
+              "duracionDias": 7
+            }
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "nombre": "Marcos Díaz",
+        "fechaNacimiento": "2015-08-30",
+        "seguro": {
+          "compania": "Adeslas",
+          "numeroPoliza": "ADE98765"
+        },
+        "alergias": [
+          "Penicilina"
+        ],
+        "historial": [
+          {
+            "fecha": "2026-05-20",
+            "diagnostico": "Otitis",
+            "tratamiento": {
+              "medicamento": "Amoxicilina",
+              "dosis": "250mg",
+              "duracionDias": 7
+            }
+          }
+        ]
+      }
+    ],
+    "citas": [
+      {
+        "id": 1001,
+        "pacienteId": 101,
+        "medicoId": 1,
+        "fecha": "2026-10-24T10:00:00",
+        "confirmada": true,
+        "notas": "Revisión rutinaria"
+      },
+      {
+        "id": 1002,
+        "pacienteId": 102,
+        "medicoId": 2,
+        "fecha": "2026-10-25T11:30:00",
+        "confirmada": false,
+        "notas": null
+      },
+      {
+        "id": 1003,
+        "pacienteId": 103,
+        "medicoId": 3,
+        "fecha": "2026-10-26T16:00:00",
+        "confirmada": true,
+        "notas": "Fiebre leve"
+      },
+      {
+        "id": 1004,
+        "pacienteId": 101,
+        "medicoId": 2,
+        "fecha": "2026-10-27T09:00:00",
+        "confirmada": true,
+        "notas": "Consulta mancha en la piel"
+      },
+      {
+        "id": 1005,
+        "pacienteId": 102,
+        "medicoId": 1,
+        "fecha": "2026-10-28T12:30:00",
+        "confirmada": true,
+        "notas": null
+      }
+    ]
+  }
+}

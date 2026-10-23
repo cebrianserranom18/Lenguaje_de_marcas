@@ -1,0 +1,153 @@
+{
+  "academia": {
+    "nombre": "Code Academy",
+    "fundacion": 2015,
+    "sede": {
+      "ciudad": "Madrid",
+      "pais": "España",
+      "coordenadas": {
+        "lat": 40.4168,
+        "lng": -3.7038
+      }
+    },
+    "cursos": [
+      {
+        "codigo": "WEB-101",
+        "titulo": "Desarrollo Web Frontend",
+        "profesor": {
+          "nombre": "Laura Martínez",
+          "especialidades": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ],
+          "contacto": {
+            "email": "laura@codeacademy.com",
+            "telefono": "611223344"
+          }
+        },
+        "horario": [
+          {
+            "dia": "Lunes",
+            "inicio": "16:00",
+            "fin": "18:00"
+          },
+          {
+            "dia": "Miércoles",
+            "inicio": "16:00",
+            "fin": "18:00"
+          }
+        ],
+        "alumnos": [
+          {
+            "nombre": "Pedro Ruiz",
+            "activo": true,
+            "notas": [8, 7, 9],
+            "notaFinal": 8.0
+          },
+          {
+            "nombre": "Sara Gómez",
+            "activo": true,
+            "notas": [9, 9, 10],
+            "notaFinal": 9.3
+          },
+          {
+            "nombre": "Luis Blanco",
+            "activo": true,
+            "notas": [],
+            "notaFinal": null
+          }
+        ]
+      },
+      {
+        "codigo": "BACK-201",
+        "titulo": "Backend con Node.js",
+        "profesor": {
+          "nombre": "David Torres",
+          "especialidades": [
+            "Node.js",
+            "Bases de Datos"
+          ],
+          "contacto": {
+            "email": "david@codeacademy.com",
+            "telefono": "622334455"
+          }
+        },
+        "horario": [
+          {
+            "dia": "Martes",
+            "inicio": "18:00",
+            "fin": "20:00"
+          },
+          {
+            "dia": "Jueves",
+            "inicio": "18:00",
+            "fin": "20:00"
+          }
+        ],
+        "alumnos": [
+          {
+            "nombre": "Marta Sanz",
+            "activo": true,
+            "notas": [6, 7],
+            "notaFinal": null
+          },
+          {
+            "nombre": "Jorge Díaz",
+            "activo": false,
+            "notas": [4],
+            "notaFinal": 4.0
+          },
+          {
+            "nombre": "Ana Vega",
+            "activo": true,
+            "notas": [8, 8, 9],
+            "notaFinal": 8.3
+          }
+        ]
+      },
+      {
+        "codigo": "DATA-301",
+        "titulo": "Análisis de Datos",
+        "profesor": {
+          "nombre": "Carmen Gil",
+          "especialidades": [
+            "Python",
+            "SQL"
+          ],
+          "contacto": {
+            "email": "carmen@codeacademy.com",
+            "telefono": "633445566"
+          }
+        },
+        "horario": [
+          {
+            "dia": "Viernes",
+            "inicio": "17:00",
+            "fin": "21:00"
+          }
+        ],
+        "alumnos": [
+          {
+            "nombre": "Raúl Castro",
+            "activo": true,
+            "notas": [9, 8],
+            "notaFinal": null
+          },
+          {
+            "nombre": "Elena Rivas",
+            "activo": true,
+            "notas": [10, 10],
+            "notaFinal": 10.0
+          },
+          {
+            "nombre": "Diego Soler",
+            "activo": true,
+            "notas": [5, 6, 5],
+            "notaFinal": 5.3
+          }
+        ]
+      }
+    ]
+  }
+}

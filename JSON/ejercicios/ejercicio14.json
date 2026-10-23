@@ -1,0 +1,22 @@
+{
+  "videojuegos": [
+    {
+      "titulo": "Aventura Épica",
+      "genero": "RPG",
+      "precio": 59.99,
+      "multijugador": true
+    },
+    {
+      "titulo": "Carreras Locas",
+      "genero": "Deportes",
+      "precio": 0,
+      "multijugador": true
+    },
+    {
+      "titulo": "Solitario Espacial",
+      "genero": "Estrategia",
+      "precio": 19.99,
+      "multijugador": false
+    }
+  ]
+}

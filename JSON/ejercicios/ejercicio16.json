@@ -1,0 +1,126 @@
+{
+  "tienda": {
+    "nombre": "ElectroMarket",
+    "abierta": true,
+    "contacto": {
+      "telefono": "+34600123456",
+      "email": "info@electromarket.es"
+    },
+    "categorias": [
+      {
+        "id": 1,
+        "nombre": "Informática",
+        "productos": [
+          {
+            "sku": "INF-001",
+            "nombre": "Portátil Pro",
+            "precio": 1200.50,
+            "stock": 15,
+            "etiquetas": [
+              "laptop",
+              "oferta"
+            ],
+            "dimensiones": {
+              "alto": 2,
+              "ancho": 35,
+              "fondo": 24
+            },
+            "disponible": true
+          },
+          {
+            "sku": "INF-002",
+            "nombre": "Ratón Gaming",
+            "precio": 45.00,
+            "stock": 50,
+            "etiquetas": [
+              "gaming",
+              "periférico"
+            ],
+            "dimensiones": {
+              "alto": 4,
+              "ancho": 7,
+              "fondo": 12
+            },
+            "disponible": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Telefonía",
+        "productos": [
+          {
+            "sku": "TEL-001",
+            "nombre": "Smartphone X",
+            "precio": 899.99,
+            "stock": 20,
+            "etiquetas": [
+              "móvil",
+              "nuevo"
+            ],
+            "dimensiones": {
+              "alto": 15,
+              "ancho": 7,
+              "fondo": 1
+            },
+            "disponible": true
+          },
+          {
+            "sku": "TEL-002",
+            "nombre": "Funda Silicona",
+            "precio": 15.50,
+            "stock": 100,
+            "etiquetas": [
+              "accesorio",
+              "protección"
+            ],
+            "dimensiones": {
+              "alto": 16,
+              "ancho": 8,
+              "fondo": 1
+            },
+            "disponible": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Audio",
+        "productos": [
+          {
+            "sku": "AUD-001",
+            "nombre": "Auriculares Bluetooth",
+            "precio": 120.00,
+            "stock": 30,
+            "etiquetas": [
+              "inalámbrico",
+              "sonido"
+            ],
+            "dimensiones": {
+              "alto": 19,
+              "ancho": 15,
+              "fondo": 8
+            },
+            "disponible": true
+          },
+          {
+            "sku": "AUD-002",
+            "nombre": "Altavoz Inteligente",
+            "precio": 65.00,
+            "stock": 0,
+            "etiquetas": [
+              "smart",
+              "hogar"
+            ],
+            "dimensiones": {
+              "alto": 14,
+              "ancho": 10,
+              "fondo": 10
+            },
+            "disponible": false
+          }
+        ]
+      }
+    ]
+  }
+}

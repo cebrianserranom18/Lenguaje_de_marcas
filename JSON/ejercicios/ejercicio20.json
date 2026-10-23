@@ -1,0 +1,191 @@
+{
+  "status": 200,
+  "ok": true,
+  "meta": {
+    "pagina": 1,
+    "porPagina": 4,
+    "totalResultados": 42,
+    "enlaces": {
+      "anterior": null,
+      "siguiente": "https://api.streaming.com/series?page=2"
+    },
+    "generadoEn": "2026-10-23T12:00:00Z"
+  },
+  "data": [
+    {
+      "id": 1,
+      "titulo": "Drama Central",
+      "genero": [
+        "Drama",
+        "Intriga"
+      ],
+      "estreno": 2019,
+      "valoracion": {
+        "media": 8.5,
+        "votos": 15000
+      },
+      "reparto": [
+        {
+          "actor": "Elena Rojas",
+          "personaje": "Detective Silva",
+          "principal": true
+        },
+        {
+          "actor": "Luis Varela",
+          "personaje": "Sospechoso A",
+          "principal": false
+        }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "titulo": "El comienzo",
+              "duracionMin": 55
+            },
+            {
+              "titulo": "La pista",
+              "duracionMin": 52
+            }
+          ]
+        }
+      ],
+      "disponibleEn": {
+        "ES": true,
+        "MX": true,
+        "US": false
+      },
+      "trailer": {
+        "url": "https://video.com/trailer1",
+        "duracionSeg": 120
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Risas Enlatadas",
+      "genero": [
+        "Comedia"
+      ],
+      "estreno": 2021,
+      "valoracion": {
+        "media": 7.2,
+        "votos": 8000
+      },
+      "reparto": [
+        {
+          "actor": "Carlos Pinto",
+          "personaje": "Juan",
+          "principal": true
+        }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "titulo": "Piloto",
+              "duracionMin": 22
+            },
+            {
+              "titulo": "El sofá nuevo",
+              "duracionMin": 24
+            }
+          ]
+        }
+      ],
+      "disponibleEn": {
+        "ES": true,
+        "MX": false,
+        "US": true
+      },
+      "trailer": null
+    },
+    {
+      "id": 3,
+      "titulo": "Galaxia Lejana",
+      "genero": [
+        "Ciencia Ficción",
+        "Acción"
+      ],
+      "estreno": 2023,
+      "valoracion": {
+        "media": 9.1,
+        "votos": 45000
+      },
+      "reparto": [
+        {
+          "actor": "Marina Kosov",
+          "personaje": "Comandante Rex",
+          "principal": true
+        }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "titulo": "Despegue",
+              "duracionMin": 60
+            },
+            {
+              "titulo": "Agujero Negro",
+              "duracionMin": 58
+            }
+          ]
+        }
+      ],
+      "disponibleEn": {
+        "ES": false,
+        "MX": true,
+        "US": true
+      },
+      "trailer": {
+        "url": "https://video.com/trailer3",
+        "duracionSeg": 150
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Secretos del Rey",
+      "genero": [
+        "Documental",
+        "Historia"
+      ],
+      "estreno": 2020,
+      "valoracion": {
+        "media": 8.0,
+        "votos": 3200
+      },
+      "reparto": [
+        {
+          "actor": "Narrador Anónimo",
+          "personaje": "Voz en off",
+          "principal": true
+        }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "titulo": "Capítulo I",
+              "duracionMin": 45
+            },
+            {
+              "titulo": "Capítulo II",
+              "duracionMin": 47
+            }
+          ]
+        }
+      ],
+      "disponibleEn": {
+        "ES": true,
+        "MX": true,
+        "US": true
+      },
+      "trailer": null
+    }
+  ],
+  "errores": []
+}
